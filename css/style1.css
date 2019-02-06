@@ -65,7 +65,7 @@ header{
 		
 	}
  ft-user-signup-163541365
-	#SignUp p{
+	#LogIn p{
 		margin:0;
 		padding:0%;	
 		text-align: left-side;
@@ -77,7 +77,7 @@ header{
 		background-color:#eaece5;
 		}
 	
-	#SignUp input {
+	#SignUpinput {
 		border: none;
 		border-bottom: 1px solid;
 		height: 40px;
