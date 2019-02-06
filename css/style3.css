@@ -45,14 +45,10 @@ header{
 		font-weight:bold;
 	}
 
-	/*Sign up boxes*/
-	#SignUp{
+	/*Reset boxes*/
+	#Reset{
 		width: 400px;
-		height:400px;
-	/*LogIn boxes*/
-	#LogIn{
-		width: 400px;
-		height:300px;
+		height:200px;
 		top: 20%;
 		left: 35%;
 		position: absolute;
@@ -68,24 +64,26 @@ header{
 		font-size: 16px;
 		
 	}
- ft-user-signup-163541365
-	#SignUp p{
+	#Reset p{
 		margin:0;
 		padding:0%;	
 		text-align: left-side;
 	}
 	
-	#SignUp input {
+	#Reset input {
 		width: 100%;
 		margin-bottom: 20px;
 		background-color:#eaece5;
 		}
 	
-	#SignUp input {
+	#Reset input {
 		border: none;
 		border-bottom: 1px solid;
 		height: 40px;
 		}
+		
+		
+		
 		footer {
 		padding: 10px;
 		background-color: #c0ded9;
@@ -95,26 +93,3 @@ header{
 		position: absolute;
 		width: 100%;
 		}
-		
-		/*button*/
-button {
-  background-color: ##eaece5;
-  border: 1px solid;
-   padding: 0;
-  text-align: center;
-   font-size:16px;
-  width: 100%;
-height: 40px;
-}
-footer {
-    padding: 10px;
-    background-color: #c0ded9;
-    text-align: center;
-    font-size: 10px;
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-   font-size: 16px;
-  width: 100%;
-height: 40px;
-}
