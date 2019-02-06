@@ -1,0 +1,100 @@
+body{
+	font-family: "Verdana", Arial, Sans-serif;
+	font-size: 18px;
+	line-height: 2.0;
+	padding:0;
+	margin:0;
+	background-color:#eaece5;
+	}
+/*global*/
+/*container set to 80% of responsive devices, with the margin auto(center)*/
+.container{
+		width:80%;
+		margin:auto;
+		overflow:hidden;
+}
+/*header*/
+header{
+	background: #3b3a30;
+	text-transform: uppercase;
+	color:#ffffff;
+	padding-top: 20px;
+	border-bottom: #b2c2bf 4px solid;
+	text-align: center;
+		}
+		
+		/*For the links*/
+	header  a{
+		color: #ffffff;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size:16px;
+	}
+	/*For the list format*/
+	header ul{
+		padding: 0px;
+		margin:0px;
+	}
+	header li{
+		float: center;
+		display: inline;
+		padding: 0 20px 0 20px;
+	}
+	header .current a{
+		color: ##b2c2bf;
+		font-weight:bold;
+	}
+
+	/*Sign up boxes*/
+	#SignUp{
+		width: 400px;
+		height:400px;
+		top: 20%;
+		left: 35%;
+		position: absolute;
+		box-sizing:border-box;
+		background-color: #b2c2bf;
+		}
+			
+	h1{
+		padding:0;
+		margin:0;
+		text-align: center;
+		font-size: 16px;
+		
+	}
+	#SignUp p{
+		margin:0;
+		padding:0%;	
+		text-align: left-side;
+	}
+	
+	#SignUp input {
+		width: 100%;
+		margin-bottom: 20px;
+		background-color:#eaece5;
+		}
+	
+	#SignUp input {
+		border: none;
+		border-bottom: 1px solid;
+		height: 40px;
+		}
+		footer {
+		padding: 10px;
+		background-color: #c0ded9;
+		text-align: center;
+		font-size: 10px;
+		bottom: 0;
+		position: absolute;
+		width: 100%;
+		}
+button {
+  background-color: ##eaece5;
+  border: 1px solid;
+   padding: 0;
+  text-align: center;
+   font-size: 16px;
+  width: 100%;
+height: 40px;
+}
