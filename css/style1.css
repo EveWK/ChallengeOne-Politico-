@@ -48,10 +48,6 @@ header{
 	/*Sign up boxes*/
 	#SignUp{
 		width: 400px;
-		height:400px;
-	/*LogIn boxes*/
-	#LogIn{
-		width: 400px;
 		height:300px;
 		top: 20%;
 		left: 35%;
