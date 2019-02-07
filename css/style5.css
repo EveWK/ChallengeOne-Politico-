@@ -15,7 +15,7 @@ body{
 .container{
 		width:80%;
 		margin:auto;
-		overflow:hidden;
+		overflow:scroll;
 }
 /*header*/
 header{
@@ -80,7 +80,7 @@ header{
   height: 100%;
   width: 25%;
   position: fixed;
-  overflow-x: hidden;
+  overflow-x: scroll;
   padding-top: 10px;
   padding-bottom: 20px;
 }
@@ -152,7 +152,7 @@ table {
 		height:500px;
 		top: 15%;
 		left: 35%;
-		position: absolute;
+		position: relative;
 		box-sizing:border-box;
 		background-color: #b2c2bf;
 		font-size: 14px;
@@ -171,6 +171,6 @@ footer {
 		text-align: center;
 		font-size: 10px;
 		bottom: 0;
-		position: absolute;
+		position: fixed;
 		width: 100%;
 		}
