@@ -110,11 +110,10 @@ button {
   width: 100%;
 height: 40px;
 }
-	@media screen and (min-width:400px;){
-		.profilearea1{
-		width: 400px;
-		height:400px;
-		text-align:left; 
+.profilearea1{
+	width: 400px;
+	height:400px;
+	text-align:left; 
 		
 	}
 	
