@@ -7,8 +7,10 @@ body{
 	font-size: 18px;
 	line-height: 2.0;
 	padding:0;
-	margin:0;
+	margin:auto;
 	background-color:#eaece5;
+	overflow:scroll;
+	min-width:80%;
 	}
 /*global*/
 /*container set to 80% of responsive devices, with the margin auto(center)*/
@@ -129,12 +131,13 @@ button {
   width: 100%;
 height: 40px;
 }
+@media screen and (min-width: 925px)
+
 .profilearea1{
 	width: 400px;
 	height:400px;
 	text-align:left; 
-		
-	}
+		}
 	
 	form {
  	 overflow: scroll;
@@ -147,6 +150,7 @@ height: 40px;
 		background-color: #b2c2bf;
 		font-size: 14px;
 		}
+}
 }
 }
 input {
