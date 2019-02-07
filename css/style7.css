@@ -44,7 +44,7 @@ header{
 		color: ##b2c2bf;
 		font-weight:bold;
 	}
-@media (min-widh: 992px){
+@media (min-width: 992px){
 	nav{text-align: left;}
 	nav ul li {float:left;}
 	nav ul {width:100%;}
