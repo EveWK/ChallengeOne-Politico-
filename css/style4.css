@@ -118,12 +118,12 @@ height: 40px;
 	}
 	
 	form {
-  overflow: scroll;
+ 	 overflow: scroll;
   	width: 400px;
 		height:500px;
 		top: 15%;
 		left: 35%;
-		position: absolute;
+		position: relative;
 		box-sizing:border-box;
 		background-color: #b2c2bf;
 		font-size: 14px;
