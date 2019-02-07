@@ -47,11 +47,10 @@ header{
 
 	/*LogIn boxes*/
 	
-  #LogIn{
-	  @media (min-width: 400px;min height: 300px;) { 
 
-	
-		position:static;
+	  @media screen and (min-width:400px;){
+		#SignUp{
+		position:relative;
 		top: 20%;
 		left: 35%;
 		box-sizing:border-box;
@@ -103,6 +102,6 @@ height: 40px;
 		text-align: center;
 		font-size: 10px;
 		bottom: 0;
-		position: static;
+		position: fixed;
 		width: 100%;
 		}
