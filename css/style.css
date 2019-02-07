@@ -112,6 +112,9 @@ height: 40px;
 	/*boxes*/
 		#boxes{
 			margin-top:20px;
+			min-width:80%;
+			margin:auto;
+			overflow:scroll;
 		}
 		#boxes .box{
 			float:left;
