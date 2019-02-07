@@ -47,7 +47,7 @@ header{
 
 	/*Reset boxes*/
 	#Reset{
-		@media (min-width:400px; min-height:300px;)
+		@media {
 		width: 400px;
 		height:200px;
 		top: 20%;
@@ -91,6 +91,6 @@ header{
 		text-align: center;
 		font-size: 10px;
 		bottom: 0;
-		position: static;
+		position: relative;
 		width: 100%;
 		}
