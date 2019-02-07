@@ -46,17 +46,10 @@ header{
 	}
 
 	/*LogIn boxes*/
-#LogIn{
-		width: 400px;
-		height:300px;
-		position:static;
-		top: 20%;left: 35%]
 	
-  @media (max-width: 400px;) { 
+  @media (max-width: 400px;max height: 300px) { 
 
 	#LogIn{
-		width: 400px;
-		height:300px;
 		position:static;
 		top: 20%;
 		left: 35%;
