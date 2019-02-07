@@ -9,10 +9,11 @@ body{
 /*global*/
 /*container set to 80% of responsive devices, with the margin auto(center)*/
 .container{
-		width:80%;
+		min-width:80%;
 		margin:auto;
 		overflow:scroll;
-}
+	float: center;
+	
 /*header*/
 header{
 	background: #3b3a30;
@@ -21,6 +22,7 @@ header{
 	padding-top: 20px;
 	border-bottom: #b2c2bf 4px solid;
 	text-align: center;
+	float:center;
 		}
 		
 		/*For the links*/
@@ -29,6 +31,7 @@ header{
 		text-decoration: none;
 		text-transform: uppercase;
 		font-size:16px;
+		float:center;
 	}
 	/*For the list format*/
 	header ul{
@@ -102,5 +105,3 @@ min-height: 40px;
 		position: absolute;
 		width: 100%;
 		}
-@media screen and (max-width: 600px;){
-	input type = [submit] {width:100%;}}
