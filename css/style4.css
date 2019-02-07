@@ -103,7 +103,7 @@ header{
 	}
 	
 @media screen and (min-width: 400px){
-	.left {padding-top:10px;
+	.left {padding-left:10px;
 		height: 100%; width:20%; overflow:scroll;}
 	}
 	.splitleft li {
@@ -147,7 +147,7 @@ height: 40px;
 		background-color: #b2c2bf;
 		font-size: 14px;
 		}
-		@media screen and (min-width:400px;){form {height:500px; width:400px; position:static;}}
+		
 }
 }
 }
