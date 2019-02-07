@@ -46,7 +46,7 @@ header{
 	}
 
 	/*LogIn boxes*/
-  @media (min-width: 780px) and (max-width: 980px) { 
+  @media (min-width: 400px) and (max-width: 800px) { 
 
 }
 	#LogIn{
