@@ -47,7 +47,7 @@ header{
 
 	/*Sign up boxes*/
 	
-		@media screen and (min-width: 400px;)
+		@media screen and (min-width: 400px;){
 		#SignUp{
 		width: 400px;
 		height:300px;
