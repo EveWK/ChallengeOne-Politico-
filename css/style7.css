@@ -9,7 +9,7 @@ body{
 /*global*/
 /*container set to 80% of responsive devices, with the margin auto(center)*/
 .container{
-		max-width:80%;
+		min-width:80%;
 		margin:auto;
 		overflow:scroll;
 }
@@ -47,8 +47,8 @@ header{
 
 	/*LogIn boxes*/
 	#LogIn{
-		max-width: 400px;
-		max-height:300px;
+		min-width: 400px;
+		min-height:300px;
 		top: 20%;
 		left: 35%;
 		position: absolute;
@@ -71,7 +71,7 @@ header{
 	}
 	
 	#LogIn input {
-		max-width: 100%;
+		min-width: 100%;
 		margin-bottom: 20px;
 		background-color:#eaece5;
 		}
@@ -89,8 +89,8 @@ button {
    padding: 0;
   text-align: center;
    font-size: 16px;
-  max-width: 100%;
-max-height: 40px;
+  min-width: 100%;
+min-height: 40px;
 }
 		
 		footer {
@@ -100,5 +100,5 @@ max-height: 40px;
 		font-size: 10px;
 		bottom: 0;
 		position: absolute;
-		max-width: 100%;
+		min-width: 100%;
 		}
