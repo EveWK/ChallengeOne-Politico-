@@ -11,7 +11,7 @@ body{
 .container{
 		width:80%;
 		margin:auto;
-		overflow:hidden;
+		overflow:scroll;
 }
 /*header*/
 header{
@@ -72,14 +72,16 @@ header{
 			}
 	
 		/* Split the screen in half */
+@media screen and (min-width:400px;){
 .split {
   height: 100%;
   width: 25%;
-  position: fixed;
-  overflow-x: hidden;
+  position: relative;
+  overflow-x: scroll;
   padding-top: 10px;
   padding-bottom: 20px;
 }
+	
 /* Control the left side */
 .left {
    background-color: #b2c2bf;
@@ -97,6 +99,7 @@ header{
 		color:#ffffff;
 		float: center;
 			}
+}
 		/*button*/
 button {
   background-color: ##eaece5;
@@ -107,7 +110,8 @@ button {
   width: 100%;
 height: 40px;
 }
-	.profilearea1{
+	@media screen and (min-width:400px;){
+		.profilearea1{
 		width: 400px;
 		height:400px;
 		text-align:left; 
@@ -115,7 +119,7 @@ height: 40px;
 	}
 	
 	form {
-  overflow: hidden;
+  overflow: scroll;
   	width: 400px;
 		height:500px;
 		top: 15%;
@@ -125,6 +129,7 @@ height: 40px;
 		background-color: #b2c2bf;
 		font-size: 14px;
 		}
+}
 }
 input {
   float: right;
@@ -137,6 +142,6 @@ footer {
 		text-align: center;
 		font-size: 10px;
 		bottom: 0;
-		position: absolute;
+		position: fixed;
 		width: 100%;
 		}
