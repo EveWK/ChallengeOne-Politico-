@@ -9,9 +9,9 @@ body{
 /*global*/
 /*container set to 80% of responsive devices, with the margin auto(center)*/
 .container{
-		width:80%;
+		min-width:80%;
 		margin:auto;
-		overflow:hidden;
+		overflow:scroll;
 }
 /*header*/
 header{
@@ -55,6 +55,7 @@ header{
 		box-sizing:border-box;
 		background-color: #b2c2bf;
 		font-size: 12px;
+		box-sizing:border-box;
 		}
 			
 	h1{
