@@ -9,9 +9,9 @@ body{
 /*global*/
 /*container set to 80% of responsive devices, with the margin auto(center)*/
 .container{
-		width:80%;
+		min-width:80%;
 		margin:auto;
-		overflow:hidden;
+		overflow:scroll;
 }
 /*header*/
 header{
@@ -47,8 +47,8 @@ header{
 	
 	/*showcase*/
 	#showcase{
-		min-height: 400px;
-		background:url('../img/showcase.jpg') no-repeat -1000px;
+		height: 400px;
+		background:url('img/showcase.jpg') no-repeat -1000px;
 		text-align: center;
 		color: #ffffff;
 	}
