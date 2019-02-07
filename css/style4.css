@@ -147,7 +147,7 @@ height: 40px;
 		background-color: #b2c2bf;
 		font-size: 14px;
 		}
-		@media screen and (min-width: 925px){form {float:right;}
+		@media screen and (min-width: 925px){form {height:500px; width:400px; position:absolute;}}
 }
 }
 }
