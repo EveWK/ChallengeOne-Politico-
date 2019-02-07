@@ -11,7 +11,7 @@ body{
 .container{
 		width:80%;
 		margin:auto;
-		overflow:hidden;
+		overflow:scroll;
 }
 /*header*/
 header{
@@ -47,15 +47,17 @@ header{
 
 	/*Sign up boxes*/
 	#SignUp{
+		@media (min-width: 400px; min-height: 300px;{
 		width: 400px;
 		height:300px;
 		top: 20%;
 		left: 35%;
-		position: absolute;
+		position: static;
 		box-sizing:border-box;
 		background-color: #b2c2bf;
 		font-size: 12px;
 		}
+}
 			
 	h1{
 		padding:0;
@@ -88,7 +90,7 @@ header{
 		text-align: center;
 		font-size: 10px;
 		bottom: 0;
-		position: absolute;
+		position: static;
 		width: 100%;
 		}
 		
@@ -108,7 +110,7 @@ footer {
     text-align: center;
     font-size: 10px;
     bottom: 0;
-    position: absolute;
+    position: static;
     width: 100%;
    font-size: 16px;
   width: 100%;
