@@ -115,6 +115,7 @@ height: 40px;
 			min-width:80%;
 			margin:auto;
 			overflow:scroll;
+			box-sizing: border-box;
 		}
 		#boxes .box{
 			float:left;
@@ -125,6 +126,7 @@ height: 40px;
 			}
 		#boxes .box img{
 			width: 200px;
+			max-width: 100%;
 		}
 footer{
 			padding: 10px;
