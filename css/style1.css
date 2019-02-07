@@ -47,8 +47,8 @@ header{
 
 	/*Reset boxes*/
 	
-		@media screen and (min-width: 400px){
-		##SignUp{
+		@media screen and (min-width:400px;){
+		#SignUp{
 		width: 400px;
 		height:200px;
 		top: 20%;
