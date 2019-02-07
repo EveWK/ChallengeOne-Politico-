@@ -51,15 +51,18 @@ header{
 		background:url('img/showcase.jpg') no-repeat -1000px;
 		text-align: center;
 		color: #ffffff;
+		min-width:80%;
+		margin:auto;
+		overflow:scroll;
 	}
 	#showcase h1{
 		margin-top: 100px;
 		font-size:16px;
+		min-width:80%;
+		margin:auto;
+		overflow:scroll;
 	}
-		#showcase h1{
-		margin-top: 50px;
-		font-size:14px;
-	}
+	
 #LogIn{
 		width: 400px;
 		height:300px;
