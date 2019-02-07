@@ -46,8 +46,9 @@ header{
 	}
 
 	/*Reset boxes*/
-	#Reset{
+	
 		@media screen and (min-width: 400px){
+		#Reset{
 		width: 400px;
 		height:200px;
 		top: 20%;
