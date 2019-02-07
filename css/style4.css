@@ -72,7 +72,7 @@ header{
 			}
 	
 		/* Split the screen in half */
-@media screen and (min-width:400px;){
+
 .split {
   height: 100%;
   width: 25%;
@@ -81,10 +81,8 @@ header{
   padding-top: 10px;
   padding-bottom: 20px;
 }
-}
 /* Control the left side */
-{
-@media screen and (min-width:400px;){
+
 .left {
    background-color: #b2c2bf;
   	border-bottom: #b2c2bf 4px solid;
@@ -100,7 +98,7 @@ header{
 		font-size: 20px;
 		color:#ffffff;
 		float: center;
-	}}
+	}
 
 		/*button*/
 button {
