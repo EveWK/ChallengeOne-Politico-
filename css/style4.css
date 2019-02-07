@@ -135,6 +135,10 @@ height: 40px;
 	height:400px;
 	text-align:left; 
 		}
+@media screen and (min-width: 925px){.profilearea1 li{
+		float:left;overflow:scroll;text-align:center; 
+		}
+
 	
 	form {
  	 overflow: scroll;
