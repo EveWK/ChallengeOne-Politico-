@@ -9,7 +9,7 @@ body{
 /*global*/
 /*container set to 80% of responsive devices, with the margin auto(center)*/
 .container{
-		min-width:80%;
+		width:80%;
 		margin:auto;
 		overflow:scroll;
 }
@@ -45,18 +45,18 @@ header{
 		font-weight:bold;
 	}
 
-	/*LogIn boxes*/
+	/*Reset boxes*/
 	
-
-	  @media screen and (min-width:400px;){
-		#LogIn{
-		position:relative;
+		@media screen and (min-width: 400px){
+		#Reset{
+		width: 400px;
+		height:200px;
 		top: 20%;
 		left: 35%;
+		position: relative;
 		box-sizing:border-box;
 		background-color: #b2c2bf;
 		font-size: 12px;
-		box-sizing:border-box;
 		}
 }
 			
@@ -67,34 +67,25 @@ header{
 		font-size: 16px;
 		
 	}
-	#LogIn p{
+	#Login p{
 		margin:0;
 		padding:0%;	
 		text-align: left-side;
 	}
 	
-	#LogIn input {
+	#Login input {
 		width: 100%;
 		margin-bottom: 20px;
 		background-color:#eaece5;
 		}
 	
-	#LogIn input {
+	#Login input {
 		border: none;
 		border-bottom: 1px solid;
 		height: 40px;
 		}
 		
-		/*button*/
-button {
-  background-color: ##eaece5;
-  border: 1px solid;
-   padding: 0;
-  text-align: center;
-   font-size: 16px;
-  width: 100%;
-height: 40px;
-}
+		
 		
 		footer {
 		padding: 10px;
@@ -104,4 +95,4 @@ height: 40px;
 		bottom: 0;
 		position: fixed;
 		width: 100%;
-		}
+}
