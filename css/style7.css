@@ -44,12 +44,17 @@ header{
 		color: ##b2c2bf;
 		font-weight:bold;
 	}
-
+@media (min-widh: 992px){
+	nav{text-align: left;}
+	nav ul li {float:left;}
+	nav ul {width:100%;}
+}
 	/*LogIn boxes*/
 	#LogIn{
 		max-width: 400px;
 		max-height:300px;
-		
+		top: 20%;
+		left: 35%;
 		position: absolute;
 		box-sizing:border-box;
 		background-color: #b2c2bf;
