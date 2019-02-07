@@ -46,13 +46,14 @@ header{
 	}
 
 	/*Sign up boxes*/
-	#SignUp{
-		@media (min-width: 400px; min-height: 300px;{
+	
+		@media screen and (min-width: 400px;)
+		#SignUp{
 		width: 400px;
 		height:300px;
 		top: 20%;
 		left: 35%;
-		position: static;
+		position: absolute;
 		box-sizing:border-box;
 		background-color: #b2c2bf;
 		font-size: 12px;
@@ -102,7 +103,7 @@ footer {
     text-align: center;
     font-size: 10px;
     bottom: 0;
-    position: static;
+    position: absolute;
     width: 100%;
    font-size: 16px;
   width: 100%;
