@@ -11,7 +11,7 @@ body{
 .container{
 		width:80%;
 		margin:auto;
-		overflow:hidden;
+		overflow:scroll;
 }
 /*header*/
 header{
@@ -47,11 +47,12 @@ header{
 
 	/*Reset boxes*/
 	#Reset{
+		@media (min-width:400px; min-height:300px;)
 		width: 400px;
 		height:200px;
 		top: 20%;
 		left: 35%;
-		position: absolute;
+		position: static;
 		box-sizing:border-box;
 		background-color: #b2c2bf;
 		font-size: 12px;
@@ -90,6 +91,6 @@ header{
 		text-align: center;
 		font-size: 10px;
 		bottom: 0;
-		position: absolute;
+		position: static;
 		width: 100%;
 		}
