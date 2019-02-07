@@ -112,7 +112,11 @@ header{
 		color:#ffffff;
 		float: center;
 	}
-	@media screen and (min-width: 925px){
+	@media screen and (min-width: 925px){.splitleft li{
+		float: left;
+		top:25%;}
+
+	@media screen and (min-width: 925px){.
 		top:25%;}
 
 		/*button*/
