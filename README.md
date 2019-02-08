@@ -6,7 +6,7 @@ Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 Prerequisites
-What things you need to install the software and how to install them Google Chrome browser A link to the project site ( https://evewk.github.io/Andela-Challenge-1/ )
+What things you need to install the software and how to install them Google Chrome browser A link to the project site ( https://evewk.github.io/ChallengeOne-Politico-/)
 
 Installing
 Using your google Chrome browser, copy the link above and paste it into your url code. Browse the interface as desired.
