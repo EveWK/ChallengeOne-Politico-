@@ -9,9 +9,9 @@ body{
 /*global*/
 /*container set to 80% of responsive devices, with the margin auto(center)*/
 .container{
-		min-width:80%;
+		width:80%;
 		margin:auto;
-		overflow:scroll;
+		overflow:hidden;
 }
 /*header*/
 header{
@@ -47,22 +47,19 @@ header{
 	
 	/*showcase*/
 	#showcase{
-		height: 400px;
+		min-height: 400px;
 		background:url('../img/showcase.jpg') no-repeat -1000px;
 		text-align: center;
 		color: #ffffff;
-		min-width:80%;
-		margin:auto;
-		
 	}
 	#showcase h1{
 		margin-top: 100px;
 		font-size:16px;
-		min-width:80%;
-		margin:auto;
-		
 	}
-	
+		#showcase h1{
+		margin-top: 50px;
+		font-size:14px;
+	}
 #LogIn{
 		width: 400px;
 		height:300px;
@@ -112,10 +109,6 @@ height: 40px;
 	/*boxes*/
 		#boxes{
 			margin-top:20px;
-			min-width:80%;
-			margin:auto;
-			overflow:scroll;
-			box-sizing: border-box;
 		}
 		#boxes .box{
 			float:left;
@@ -126,7 +119,6 @@ height: 40px;
 			}
 		#boxes .box img{
 			width: 200px;
-			max-width: 100%;
 		}
 footer{
 			padding: 10px;
